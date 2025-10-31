@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+naver:
+  client-id: ${NAVER_CLIENT_ID}
+  client-secret: ${NAVER_CLIENT_SECRET}
+  datalab-url: https://openapi.naver.com/v1/datalab/search
+  news-url: https://openapi.naver.com/v1/search/news.json
